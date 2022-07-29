@@ -1,0 +1,349 @@
+/*
+------------------------
+         1400px
+------------------------
+*/
+@media screen and (max-width: 1400px) {
+    .news-cart-img img {
+        height: 140px;
+    }
+}
+
+/*
+------------------------
+         1200px
+------------------------
+*/
+@media screen and (max-width: 1200px) {
+    .news-date {
+        margin-top: 0px;
+    }
+
+    .news-cart-img img {
+        height: 115px;
+    }
+
+    .notif-box {
+        width: 95%;
+    }
+}
+
+/*
+------------------------
+         992px
+------------------------
+*/
+@media screen and (max-width: 992px) {
+    .header-menu-ul {
+        display: flex;
+        gap: 19px;
+        font-size: 12.5px;
+    }
+
+    .header-nav-bar__ul {
+        font-size: 13.5px;
+    }
+
+    .under-menu-img img {
+        width: 120px;
+        margin: 33px;
+    }
+
+    .under-menu-title {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    .under-menu__box>ul>li {
+        margin-bottom: 2px;
+        font-size: 11.5px;
+        padding: 9px 0px;
+    }
+
+    .sub-menu-rs>ul>li {
+        font-size: 12px;
+    }
+
+    .sub-menu {
+        width: 207px;
+    }
+
+    .sub-menu-rs {
+        right: 198px;
+        width: 136px;
+    }
+
+    #sub-rs:hover .sub-menu-rs {
+        right: 180px;
+    }
+
+    .header-search-box input {
+        width: 70%;
+    }
+
+    .news-cart-box {
+        margin-bottom: 30px;
+    }
+
+    .news-date {
+        margin-top: 56px;
+    }
+
+    .news-cart-img img {
+        height: 173px;
+    }
+
+    .conference-box {
+        width: 320px;
+    }
+
+    .conference-img img {
+        height: 342px;
+    }
+
+    .calendar-txt p {
+        font-size: 27px;
+    }
+
+    .calendar-txt a {
+        padding: 13px 26px;
+    }
+
+    .notif-box {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .counter-icon svg {
+        height: 60px;
+    }
+
+    .footer-list-title {
+        font-size: 16px;
+    }
+
+    .footer-ul li {
+        font-size: 12px;
+    }
+}
+
+/*
+------------------------
+         768px
+------------------------
+*/
+@media screen and (max-width: 768px) {
+    .header-menu-ul {
+        display: block;
+        text-align: center;
+    }
+
+    .header-menu-li {
+        padding-bottom: 11px;
+    }
+
+    .header-nav-bar-box {
+        width: 350px;
+        background-color: var(--blue-color);
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: -400px;
+        z-index: 5;
+        transition: all .5s;
+    }
+
+    .line-box {
+        display: block;
+    }
+
+    .header-nav-bar__ul {
+        display: block;
+        padding: 4px 28px;
+    }
+
+    .header-nav-bar-box i {
+        display: block;
+    }
+
+    .header-nav-bar__li {
+        padding: 13px;
+    }
+
+    .header-nav-bar__a {
+        color: #fff;
+    }
+
+    .header-nav-bar__a:hover {
+        color: #fff;
+    }
+
+    .slider-title {
+        font-size: 19px;
+    }
+
+    .slider-txt {
+        font-size: 12.5px;
+    }
+
+    .slider-btn {
+        padding: 12px 24px;
+    }
+
+    .slider-img1 {
+        background-size: 250px;
+    }
+
+    .news-cart-box {
+        width: 400px;
+        margin: 0 auto 30px auto;
+    }
+
+    .conference-col {
+        margin-bottom: 50px;
+    }
+
+    .calendar-txt p {
+        font-size: 20px;
+    }
+
+    .calendar-txt a {
+        padding: 10px 20px;
+    }
+
+    .calendar-img {
+        background-size: 550px;
+    }
+
+    .system-icon i {
+        font-size: 55px;
+    }
+
+    .system-icon p {
+        font-size: 13.5px;
+    }
+
+    .notif-box {
+        width: 276px;
+    }
+
+    .counter-icon svg {
+        height: 50px;
+    }
+
+    .counter-icon-txt {
+        font-size: 11.5px;
+    }
+
+    .counter-icon-num {
+        font-size: 20px;
+    }
+
+    .counter-icon {
+        margin-bottom: 25px;
+    }
+
+    .footer {
+        height: 630px;
+    }
+
+    .footer-lists {
+        padding: 50px 0;
+    }
+
+}
+
+/*
+------------------------
+         576px
+------------------------
+*/
+@media screen and (max-width: 576px) {
+    .header-menu-ul {
+        font-size: 10.5px;
+    }
+
+    .header-nav-bar-box {
+        width: 300px;
+    }
+
+    .login-box {
+        width: 332px;
+    }
+
+    .login-title::after {
+        width: 60px;
+    }
+
+    .sub-menu {
+        display: none;
+    }
+
+    .sub-menu-rs {
+        display: none;
+    }
+
+    .swiper-slide {
+        flex-direction: column;
+    }
+
+    .slider-caption {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .slider-img3,
+    .slider-img1,
+    .slider-img2 {
+        width: 100%;
+        height: 500px;
+    }
+
+    .swiper {
+        height: 700px;
+    }
+
+    .header-search-box {
+        height: 70px;
+    }
+
+    .news-title {
+        font-size: 25px;
+    }
+
+    .conference-timer-txt {
+        font-size: 16px;
+    }
+
+    .calendar-box {
+        flex-direction: column;
+        height: 578px;
+    }
+
+    .calendar-img {
+        width: 100%;
+    }
+
+    .calendar-txt {
+        width: 100%;
+        padding: 55px 0;
+    }
+
+    .system-icon i {
+        font-size: 50px;
+    }
+
+    .system-icon p {
+        font-size: 12.5px;
+    }
+
+    .system-box {
+        height: 250px;
+    }
+    .footer-lists {
+        flex-direction: column;
+    }
+    .footer {
+        height: 930px;
+    }
+}
